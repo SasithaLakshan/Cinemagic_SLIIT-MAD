@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout-v28/activity_user_login.xml" value="0.21829710144927536" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_admin_booking_management.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_admin_login.xml" value="0.23762375340135958" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_admin_movie_management.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_admin_panel.xml" value="0.23762375340135958" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_admin_payment_management.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_admin_register.xml" value="0.47524750680271916" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_admin_ticket_management.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_admin_user_management.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_booking_management.xml" value="0.20910890299319643" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_create_booking.xml" value="0.47524750680271916" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_main.xml" value="0.31366335448979465" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_movie_management.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_payment_management.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_splash.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_ticket_booking_management.xml" value="0.23762375340135958" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_ticket_booking_page.xml" value="0.20910890299319643" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_update_booking_page.xml" value="0.20910890299319643" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_update_booking_page2.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_user_login.xml" value="0.23762375340135958" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_user_management.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_user_panel.xml" value="0.31366335448979465" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_user_register.xml" value="0.20910890299319643" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_view_all_booking.xml" value="0.20910890299319643" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_view_all_bookings.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_view_booking_page.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/booking_row.xml" value="0.47524750680271916" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

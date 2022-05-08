@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cinemagic">
         <activity
-            android:name=".MainActivity"
+            android:name=".AdminRegister"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegister"
+            android:exported="false" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
