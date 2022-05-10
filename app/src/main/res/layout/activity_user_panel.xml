@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserPanel">
+
+    <TextView
+        android:id="@+id/user_panel_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/user_panel_title"
+        android:textColor="@color/yellow"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/user_panel_logo"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/user_panel_logo"
+        app:layout_constraintTop_toBottomOf="@+id/user_panel_logo"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/user_panel_logo"
+        android:layout_width="159dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/user_panel_splash_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo_cinemagic_2" />
+
+    <TextView
+        android:id="@+id/user_panel_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:text="@string/slogan"
+        android:textColor="@color/dark_yellow"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/log_out"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/payment_mgmt"
+        app:layout_constraintTop_toBottomOf="@+id/user_mgmt" />
+
+    <ImageButton
+        android:id="@+id/booking_mgmt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/booking_mgmt"
+        app:layout_constraintStart_toEndOf="@+id/user_mgmt"
+        app:layout_constraintTop_toTopOf="@+id/user_mgmt"
+        app:srcCompat="@drawable/bookings"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/log_out"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/log_out_btn"
+        android:src="@drawable/log_out"
+        app:layout_constraintEnd_toEndOf="@+id/booking_mgmt"
+        app:layout_constraintTop_toBottomOf="@+id/booking_mgmt" />
+
+    <ImageButton
+        android:id="@+id/payment_mgmt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/payment_mgmt"
+        app:layout_constraintStart_toStartOf="@+id/movie_mgmt"
+        app:layout_constraintTop_toBottomOf="@+id/movie_mgmt"
+        app:srcCompat="@drawable/payment" />
+
+    <ImageButton
+        android:id="@+id/movie_mgmt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/movie_mgmt"
+        app:layout_constraintEnd_toStartOf="@+id/user_mgmt"
+        app:layout_constraintTop_toTopOf="@+id/user_mgmt"
+        app:srcCompat="@drawable/movies" />
+
+    <ImageButton
+        android:id="@+id/user_mgmt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/user_mgmt"
+        app:layout_constraintEnd_toEndOf="@+id/user_panel_title"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/user_panel_title"
+        app:layout_constraintTop_toBottomOf="@+id/user_panel_title"
+        app:srcCompat="@drawable/user" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

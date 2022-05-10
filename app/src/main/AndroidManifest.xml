@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cinemagic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cinemagic">
+        <activity
+            android:name=".UpdateBooking"
+            android:parentActivityName=".BookingManagement"
+            android:label="Update Booking"
+            android:exported="false" />
+        <activity
+            android:name=".AddBooking"
+            android:label="New Booking"
+            android:parentActivityName=".BookingManagement"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentManagement"
+            android:exported="false"
+            android:label="Cinemagic | Payments"
+            android:parentActivityName=".UserPanel" />
+        <activity
+            android:name=".UserManagement"
+            android:exported="false"
+            android:label="Cinemagic | User"
+            android:parentActivityName=".UserPanel" />
+        <activity
+            android:name=".MovieManagement"
+            android:exported="false"
+            android:label="Cinemagic | Movies "
+            android:parentActivityName=".UserPanel" />
+        <activity
+            android:name=".BookingManagement"
+            android:parentActivityName=".UserPanel"
+            android:exported="false"
+            android:label="Cinemagic | Bookings" />
+        <activity
+            android:name=".AdminRegister"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegister"
+            android:exported="false"
+            android:label="User Sign Up"
+            android:parentActivityName=".UserLogin" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="false"
+            android:label="User Sign In"
+            android:parentActivityName=".Splash" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel"
+            android:exported="false"
+            android:label="Cinemagic Home" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
