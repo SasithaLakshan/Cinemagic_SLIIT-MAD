@@ -33,14 +33,23 @@
     <string name="create_admin_account">create admin account</string>
     <string name="admin_login_title">Admin Portal</string>
     <string name="all_bookings">All Bookings</string>
-    <string name="floating_button">floating button</string>
     <string name="theatre">Theatre</string>
     <string name="show_time">Show time</string>
     <string name="mobile_no">Mobile No</string>
-    <string name="date">Date</string>
-    <string name="name">Name</string>
     <string name="add_booking">Add Booking</string>
     <string name="go_back">Go back</string>
     <string name="create_booking">Create Booking</string>
     <string name="ticket_count">Ticket Count</string>
+    <string name="no_data">No Data.</string>
+    <string name="floating_button">floating button</string>
+    <string name="name">Name</string>
+    <string name="booking_theatre">Booking Theatre</string>
+    <string name="no_of_tickets">No. of Tickets</string>
+    <string name="_1">1</string>
+    <string name="booking_name">Booking Name</string>
+    <string name="date">Date</string>
+    <string name="count">Count</string>
+    <string name="tickets"> Tickets</string>
+    <string name="update_booking">Update Booking</string>
+    <string name="delete_booking">Delete Booking</string>
 </resources>

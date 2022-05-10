@@ -30,6 +30,23 @@
         <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_view_all_bookings.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/activity_view_booking_page.xml" value="0.22554347826086957" />
         <entry key="..\:/Users/Sasitha/Cinemagic/app/src/main/res/layout/booking_row.xml" value="0.47524750680271916" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/drawable/delete.xml" value="0.1365" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/drawable/ic_empty.xml" value="0.196" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_add_booking.xml" value="0.15" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_admin_login.xml" value="0.20969202898550723" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_booking_management.xml" value="0.25" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_main.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_movie_management.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_payment_management.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_update_booking.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_user_login.xml" value="0.25" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_user_management.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_user_panel.xml" value="0.25" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/activity_user_register.xml" value="0.25" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/layout/my_row.xml" value="0.5" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/menu/my_menu.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/Sasitha/Desktop/Cinemagic_SLIIT-MAD/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.136" />
       </map>
     </option>
   </component>

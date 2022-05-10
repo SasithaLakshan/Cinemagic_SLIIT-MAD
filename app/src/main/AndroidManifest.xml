@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cinemagic">
         <activity
+            android:name=".UpdateBooking"
+            android:parentActivityName=".BookingManagement"
+            android:label="Update Booking"
+            android:exported="false" />
+        <activity
+            android:name=".AddBooking"
+            android:label="New Booking"
+            android:parentActivityName=".BookingManagement"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentManagement"
+            android:exported="false"
+            android:label="Cinemagic | Payments"
+            android:parentActivityName=".UserPanel" />
+        <activity
+            android:name=".UserManagement"
+            android:exported="false"
+            android:label="Cinemagic | User"
+            android:parentActivityName=".UserPanel" />
+        <activity
+            android:name=".MovieManagement"
+            android:exported="false"
+            android:label="Cinemagic | Movies "
+            android:parentActivityName=".UserPanel" />
+        <activity
+            android:name=".BookingManagement"
+            android:parentActivityName=".UserPanel"
+            android:exported="false"
+            android:label="Cinemagic | Bookings" />
+        <activity
             android:name=".AdminRegister"
             android:exported="false" />
         <activity
@@ -17,16 +47,21 @@
             android:exported="false" />
         <activity
             android:name=".UserRegister"
-            android:exported="false" />
+            android:exported="false"
+            android:label="User Sign Up"
+            android:parentActivityName=".UserLogin" />
         <activity
             android:name=".UserLogin"
-            android:exported="false" />
+            android:exported="false"
+            android:label="User Sign In"
+            android:parentActivityName=".Splash" />
         <activity
             android:name=".AdminLogin"
             android:exported="false" />
         <activity
             android:name=".UserPanel"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Cinemagic Home" />
         <activity
             android:name=".Splash"
             android:exported="true">
