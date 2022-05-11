@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".cinema_hall_display">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available Cinema Halls"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/show_available_halls"
+        android:text="Show Available Cinemas"
+        android:textSize="20dp"
+        android:layout_marginBottom="6dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:id="@+id/view_hall_details"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:hint="press show available cinema button"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/hall_id_to_tickets"
+        android:hint="Insert Hall ID you want and press NEXT"
+        android:textSize="18dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/next_step"
+        android:text="NEXT"
+        android:textSize="20dp"
+        android:backgroundTint="@color/insertBtn"
+        android:layout_marginBottom="6dp"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Available Tickets"
+                        android:textColor="@color/black"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:id="@+id/view_tickets"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="6dp"
+                        android:hint="complete previous step"/>
+
+
+                </LinearLayout>
+            </ScrollView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/ticket_book_insert_id"
+                android:hint="Insert Ticket ID you want "
+                android:textSize="18dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/textbox"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:inputType="number"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/ticketbook_insert_count"
+                android:hint="Insert Ticket count"
+                android:textSize="18dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/textbox"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:inputType="number"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/book_now_btn"
+                android:text="Book Now"
+                android:textSize="20dp"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginBottom="6dp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

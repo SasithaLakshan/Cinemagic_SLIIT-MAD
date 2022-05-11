@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ticket_types">
+        <item>class 2</item>
+        <item>class 1</item>
+        <item>Box seats</item>
+        <item>Balcony seats</item>
+    </string-array>
+</resources>

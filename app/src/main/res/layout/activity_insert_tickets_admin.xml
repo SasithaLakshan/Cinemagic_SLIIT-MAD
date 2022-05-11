@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".insert_tickets_admin" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Tickets"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ticket_type"
+        android:hint="Type"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ticket_hallname"
+        android:hint="Hall ID"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ticket_price"
+        android:hint="Price"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ticket_count"
+        android:hint="Count"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ticket_time"
+        android:hint="Time"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:inputType="time" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/ticket_insert_button"
+        android:text="Insert"
+        android:textSize="20dp"
+        android:layout_marginBottom="6dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/ticket_view_button"
+        android:text="view all data"
+        android:textSize="20dp"
+        android:layout_marginBottom="6dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ticket_id"
+        android:hint="ID       only use when update or delete"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="6dp"
+        android:paddingLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/ticket_update_button"
+        android:text="Update"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="6dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/ticket_delete_button"
+        android:text="Delete"
+        android:textSize="20dp"
+        android:backgroundTint="@color/delete_button"
+        android:layout_marginBottom="6dp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

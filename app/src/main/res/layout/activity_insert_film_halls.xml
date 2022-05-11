@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".insert_film_halls" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Cinema Halls"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/hall_name"
+        android:hint="name"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/hall_location"
+        android:hint="location"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/no_of_seats"
+        android:hint="no of seats"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/insert_button"
+        android:text="Insert"
+        android:textSize="20dp"
+        android:layout_marginBottom="6dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/view_button"
+        android:text="view all data"
+        android:textSize="20dp"
+        android:layout_marginBottom="6dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/hall_id"
+        android:hint="ID       only use when update or delete"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/textbox"
+        android:layout_marginBottom="6dp"
+        android:paddingLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/update_button"
+        android:text="Update"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="6dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/delete_button"
+        android:text="Delete"
+        android:textSize="20dp"
+        android:backgroundTint="@color/delete_button"
+        android:layout_marginBottom="6dp"/>
+
+
+
+
+
+</LinearLayout>

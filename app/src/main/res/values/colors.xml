@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+
+    <color name="purple_500">#e6b800</color>
+
+
+
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="avilable_cinemahall_headline">#9C27B0</color>
+    <color name="delete_button">#FF4848</color>
+    <color name="add_button">#3385ff</color>
+    <color name="update_button">#ffcc00</color>
+    <color name="topics">#000066</color>
+
+
+    <color name="signInBtn">#FFC107</color>
+    <color name="signInLabel">#000066</color>
+    <color name="backgroundColor">#6DCCF6</color>
+    <color name="insertBtn">#3385ff</color>
+    <color name="deleteBtn">#FF4848</color>
+    <color name="updateBtn">#ffcc00</color>
+    <color name="topicColor">#000066</color>
+
+</resources>

@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">BIT MOVIE</string>
+    <string name="userName">Username</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="phone_Number">PhoneNumber</string>
+    <string name="birthday">Birthday</string>
+    <string name="Gender">Gender</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="SignUP">SIGNUP</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="signupurl">Sign Up</string>
+    <string-array name="Spinner_Items">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="Label">SIGN IN</string>
+    <string name="signin_username">.  Username</string>
+    <string name="signin_password">.  Password</string>
+    <string name="signinBtn">SIGN IN</string>
+    <string name="linkurl">Do you have another Account?</string>
+
+
+    <string name="headline">Available cinema halls</string>
+    <string name="cinemahall_name1">Skyline matara</string>
+    <string name="book_time_1">10.30 am</string>
+    <string name="book_time_2">3.30 pm</string>
+    <string name="book_time_3">6.30 pm</string>
+    <string name="cinemahall_name_2">Queens cinema Galle</string>
+    <string name="book_time_1_1">10.30 am</string>
+    <string name="book_time_1_2">3.30 pm</string>
+    <string name="book_time_1_3">6.30 pm</string>
+    <string name="tickets_headline">Available tickets</string>
+    <string name="ticket_type_1">Class 2</string>
+    <string name="ticket_price_1">price : Rs 150/=</string>
+    <string name="booknow_btn_1">Book Now</string>
+    <string name="ticket_type_2">Class 1</string>
+    <string name="ticket_price_2">price : Rs 250/=</string>
+    <string name="booknow_btn_2">Book Now</string>
+    <string name="ticket_type_3">Box seats</string>
+    <string name="ticket_price_3">price : Rs 350/=</string>
+    <string name="booknow_btn_3">Book Now</string>
+    <string name="ticket_type_4">Balcony seats</string>
+    <string name="ticket_price_4">price : Rs 450/=</string>
+    <string name="booknow_btn_4">Book Now</string>
+    <string name="topic_1">Insert new tickets</string>
+    <string name="insert_type">insert type</string>
+    <string name="insert_ticket_price">Ticket price</string>
+    <string name="ticket_price_insert">insert price</string>
+    <string name="cinemahall_insert">"cinema hall "</string>
+    <string name="insert_cinema_hall">Cinema hall</string>
+    <string name="insert_num_of_tickets">number of tickets</string>
+    <string name="insert_button">Insert</string>
+    <string name="update_btn">Update</string>
+    <string name="update_ticket_details">Update tickets details</string>
+    <string name="movie_name">movie name</string>
+    <string name="movie_name_insert">Movie name</string>
+    <string name="tickets_update_delete_headline">Manage tickets</string>
+    <string name="button_update_1">update</string>
+    <string name="button_update_2">update</string>
+    <string name="button_update_3">update</string>
+    <string name="button_update_4">update</string>
+    <string name="button_delete_1">delete</string>
+    <string name="button_delete_2">delete</string>
+    <string name="button_delete_3">delete</string>
+    <string name="button_delete_4">delete</string>
+    <string name="insert_new">Insert new ticket</string>
+    <string name="movie_time">Time</string>
+    <string name="signUpUrl">SIGN UP</string>
+
+    <string name="profilename">Name:</string>
+    <string name="profileemail">Email:</string>
+    <string name="profilephonenbr">Phone Number:</string>
+    <string name="profileBirthday">Birth Day:</string>
+    <string name="profilegender">Gender:</string>
+    <string name="profileUpdatebtn">Update</string>
+    <string name="profileDeletebtn">Delete</string>
+
+
+    <string name="paymentmethod">Select a payment method</string>
+    <string name="paymentcontinuebtn">Continue</string>
+
+
+    <string name="visaholdername">Card Holders Name</string>
+    <string name="visacardno">Card Number</string>
+    <string name="visaexpireMonth">Expire Month</string>
+    <string name="visaexpireYear">Expire Year</string>
+    <string name="visaccv">CVV Number</string>
+    <string name="visaCancelbtn">Cancel</string>
+    <string name="visapaybtn">payment</string>
+
+
+    <string name="Masterholdername">Card Holders Name</string>
+    <string name="Mastercardno">Card Number</string>
+    <string name="MasterexpireMonth">Expire Month</string>
+    <string name="MasterexpireYear">Expire Year</string>
+    <string name="Masterccv">CVV Number</string>
+    <string name="MasterCancelbtn">Cancel</string>
+    <string name="Masterpaybtn">payment</string>
+
+    <string name="Editdetails">Edit Card Details</string>
+    <string name="Editholdername">Card Holders Name</string>
+    <string name="Editcardno">Card Number</string>
+    <string name="EditexpireMonth">Expire Month</string>
+    <string name="EditexpireYear">Expire Year</string>
+    <string name="Editccv">CVV Number</string>
+    <string name="EditCancelbtn">Cancel</string>
+    <string name="Editsavebtn">Save</string>
+
+
+    <string name="creditcarddetails">Credit Card Details</string>
+    <string name="cardholdername">Card Holder:</string>
+    <string name="cardcardno">Card Number:</string>
+    <string name="cardExpireDate">Expire Date:</string>
+    <string name="CardUpdatebtn">Update</string>
+    <string name="CardDeletebtn">Delete</string>
+
+    <string name="PaymentHistory">Payment History</string>
+    <string name="Paymentmethod">Payment method:</string>
+    <string name="Paymentdate">Payment Date:</string>
+    <string name="Paymenttime">Payment Time:</string>
+    <string name="clearbtn">Clear</string>
+    <string name="EditUserLabel">Edit Profile</string>
+
+
+</resources>

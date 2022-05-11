@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditCardDetailsPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MasterCardpage">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".Visapage">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="357dp"
+                android:layout_height="439dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                app:layout_constraintVertical_bias="0.061"
+                app:srcCompat="@drawable/shape_1" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="324dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:hint=" Sachini Rasanga"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.586"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="187dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="44dp"
+                android:text="@string/Editholdername"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.218"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="324dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:hint="XXXX XXXX XXXX XXXX"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.586"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="123dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/EditexpireMonth"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/textView28"
+                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="111dp"
+                android:layout_height="29dp"
+                android:text="@string/EditexpireYear"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textView27"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.703"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="71dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/editTextDate3"
+                app:layout_constraintHorizontal_bias="0.075"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+            <EditText
+                android:id="@+id/editTextDate3"
+                android:layout_width="71dp"
+                android:layout_height="48dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editTextDate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.676"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/Editccv"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.166"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="166dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:hint="  3 Numbers"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.183"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="219dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/Editcardno"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.255"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="145dp"
+                android:layout_height="44dp"
+                android:background="@android:color/holo_green_dark"
+                android:text="@string/EditCancelbtn"
+                android:textSize="20sp"
+                app:backgroundTint="@color/deleteBtn"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.169"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="145dp"
+                android:layout_height="44dp"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/Editsavebtn"
+                android:textSize="20sp"
+                app:backgroundTint="@color/updateBtn"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.864"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.047"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.059"
+                app:srcCompat="@drawable/img_20210814_110542" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="186dp"
+                android:layout_height="36dp"
+                android:text="@string/Editdetails"
+                android:textColor="@color/topicColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.604"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
