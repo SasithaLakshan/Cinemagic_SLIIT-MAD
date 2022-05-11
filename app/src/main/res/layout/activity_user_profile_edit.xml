@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".UserProfileView"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Profile"
+            android:textColor="@color/yellow"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="30dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/man"
+            android:layout_gravity="center"
+            android:layout_marginVertical="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/userProfEditName"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/userProfEditEmail"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Mobile No: "
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/userProfEditMobile"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Old Password: "
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/userProfEditOldPass" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="New Password: "
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/userProfEditNewPass"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/userProfEditUpdate"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="Update"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="15dp"/>
+
+            <Button
+                android:id="@+id/userProfEditCancel"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="Cancel"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

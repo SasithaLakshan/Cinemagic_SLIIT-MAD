@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".payment">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="40dp"
+tools:context=".paymentmethodpage">
+
+<TextView
+
+    android:id="@+id/ptext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:gravity="center_horizontal"
+    android:text="Select Your Payment Method"
+    android:textColor="@color/yellow"
+    android:textSize="30dp"
+    android:textStyle="bold" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="253dp"
+    android:layout_height="150dp"
+    android:layout_marginLeft="40dp"
+    app:srcCompat="@drawable/mastercardlogopng_" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="254dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:backgroundTint="#D30B0B"
+        android:text="Master Card"
+        android:textSize="20dp"
+
+        android:textStyle="bold" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="253dp"
+    android:layout_height="150dp"
+    android:layout_marginLeft="40dp"
+    app:srcCompat="@drawable/img" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="259dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#0A1760"
+        android:text="Visa Card"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

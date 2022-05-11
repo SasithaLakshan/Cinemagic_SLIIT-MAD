@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".PayementHistory" android:orientation="vertical">
+
+   <TextView
+    android:id="@+id/textView34"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Payment History"
+    android:textColor="@color/yellow"
+    android:textSize="34sp"
+    android:textStyle="bold"
+       android:layout_gravity="center"
+       android:layout_margin="45dp"/>
+
+ <Button
+     android:id="@+id/paymentAdd"
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:text="Add"
+     android:textSize="20sp"
+     app:backgroundTint="@color/dark_yellow"
+     android:layout_gravity="center" />
+
+
+
+<!--<TextView-->
+<!--    android:id="@+id/textView41"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Sachini Rasanga"-->
+<!--    android:textColor="@color/black"-->
+<!--    android:textSize="24sp"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintHorizontal_bias="0.149"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:layout_constraintVertical_bias="0.206" />-->
+
+
+<!--<ImageView-->
+<!--    android:id="@+id/imageView17"-->
+<!--    android:layout_width="361dp"-->
+<!--    android:layout_height="154dp"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintHorizontal_bias="0.32"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:layout_constraintVertical_bias="0.381"-->
+<!--    app:srcCompat="@drawable/shape_1" />-->
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/paymentDeatilsList"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+
+
+ </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="33dp"
+                    android:text="Payment method: "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <TextView
+                    android:id="@+id/paymentDetailsMethod"
+                    android:layout_width="134dp"
+                    android:layout_height="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="33dp"
+                    android:text="Name: "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <TextView
+                    android:id="@+id/paymentDetailsName"
+                    android:layout_width="134dp"
+                    android:layout_height="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="33dp"
+                    android:text="Expiry date: "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <TextView
+                    android:id="@+id/paymentDetailsExpiryDate"
+                    android:layout_width="134dp"
+                    android:layout_height="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="33dp"
+                    android:text="Card Number: "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <TextView
+                    android:id="@+id/paymentDetailsCardNumber"
+                    android:layout_width="134dp"
+                    android:layout_height="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!-- <LinearLayout-->
+<!--     android:layout_width="match_parent"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:gravity="center"-->
+<!--     android:orientation="vertical">-->
+<!--  -->
+<!--  <LinearLayout-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_gravity="center"-->
+<!--      android:gravity="center"-->
+<!--      android:orientation="horizontal" >-->
+
+<!--   <TextView-->
+<!--       android:layout_width="160dp"-->
+<!--       android:layout_height="33dp"-->
+<!--       android:text="Payment method: "-->
+<!--       android:textColor="@color/black"-->
+<!--       android:textSize="20sp"-->
+<!--       android:layout_marginHorizontal="10dp"/>-->
+
+<!--   <TextView-->
+<!--       android:id="@+id/paymentDetailsMethod"-->
+<!--       android:layout_width="134dp"-->
+<!--       android:layout_height="30dp"-->
+<!--       android:text="Visa"-->
+<!--       android:textColor="@color/black"-->
+<!--       android:textSize="20sp" />-->
+<!--   -->
+<!--  </LinearLayout>-->
+
+<!--  <LinearLayout-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_gravity="center"-->
+<!--      android:gravity="center"-->
+<!--      android:orientation="horizontal" >-->
+
+<!--   <TextView-->
+<!--       android:layout_width="160dp"-->
+<!--       android:layout_height="33dp"-->
+<!--       android:text="Name: "-->
+<!--       android:textColor="@color/black"-->
+<!--       android:textSize="20sp"-->
+<!--       android:layout_marginHorizontal="10dp"/>-->
+
+<!--   <TextView-->
+<!--       android:id="@+id/paymentDetailsName"-->
+<!--       android:layout_width="134dp"-->
+<!--       android:layout_height="30dp"-->
+<!--       android:text="Payment Date"-->
+<!--       android:textColor="@color/black"-->
+<!--       android:textSize="20sp" />-->
+
+<!--  </LinearLayout>-->
+
+<!--  <LinearLayout-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_gravity="center"-->
+<!--      android:gravity="center"-->
+<!--      android:orientation="horizontal" >-->
+
+<!--   <TextView-->
+<!--       android:layout_width="160dp"-->
+<!--       android:layout_height="33dp"-->
+<!--       android:text="Expiry date: "-->
+<!--       android:textColor="@color/black"-->
+<!--       android:textSize="20sp"-->
+<!--       android:layout_marginHorizontal="10dp"/>-->
+
+<!--   <TextView-->
+<!--       android:id="@+id/paymentDetailsExpiryDate"-->
+<!--       android:layout_width="134dp"-->
+<!--       android:layout_height="30dp"-->
+<!--       android:text="Payment Date"-->
+<!--       android:textColor="@color/black"-->
+<!--       android:textSize="20sp" />-->
+
+<!--  </LinearLayout>-->
+
+<!--  <LinearLayout-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_gravity="center"-->
+<!--      android:gravity="center"-->
+<!--      android:orientation="horizontal" >-->
+
+<!--   <TextView-->
+<!--       android:layout_width="160dp"-->
+<!--       android:layout_height="33dp"-->
+<!--       android:text="Card Number: "-->
+<!--       android:textColor="@color/black"-->
+<!--       android:textSize="20sp"-->
+<!--       android:layout_marginHorizontal="10dp"/>-->
+
+<!--   <TextView-->
+<!--       android:id="@+id/paymentDetailsCardNumber"-->
+<!--       android:layout_width="134dp"-->
+<!--       android:layout_height="30dp"-->
+<!--       android:text="Payment Date"-->
+<!--       android:textColor="@color/black"-->
+<!--       android:textSize="20sp" />-->
+
+<!--  </LinearLayout>-->
+<!--  -->
+<!--  -->
+<!-- </LinearLayout>-->
+
+
+
+</LinearLayout>
